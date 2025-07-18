@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.hero .highlight {
+  color: #ffdd00;
+  font-weight: 600;
+}
+
+.bg-gradient {
+  background: linear-gradient(120deg, #ff758c, #ff7eb3);
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #ff7eb3;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ff6584;
+}
